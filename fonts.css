@@ -1,0 +1,89 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.button {
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+}
+.navigation__list {
+    font-family: 'Inika', sans-serif;
+    font-size: 16px;
+    color: #010201;
+}
+.navigation__link:hover {
+    color: #E06733;
+}
+.welcome__title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #717171;
+}
+.welcome__text {
+    font-style: normal;
+    font-size: 20px;
+    color: #636060;
+}
+.about__title {
+    font-family: 'Inika', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.about__text {
+    font-size: 20px;
+}
+.service__title {
+    font-family: 'Inika', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.service__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+}
+.service__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+.prices__title1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.prices__item {
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 20px; */
+    color: #000000;
+}
+.prices__title2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+}
+.contact__tittle {
+    font-family: 'Inika';
+    font-weight: 700;
+    font-size: 40px;
+    color: #499A18;
+}
+.githubBlock {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.rsschool {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
