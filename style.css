@@ -128,7 +128,7 @@ a {
     align-items: center;
     flex-wrap: wrap;
     width: 559px;
-    margin-top: 40px;/*pixel*/
+    margin-top: 1px;/*pixel*/
 }
 .service__layout {/*pixel*/
     height: 955px;
@@ -242,7 +242,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
+    max-width: 1332px;
     height: 122px;
 }
 .githubBlock {
@@ -261,5 +261,4 @@ a {
     align-items: center;
     width: 186px;
     height: 50px;
-    margin-right: 107px;
 }

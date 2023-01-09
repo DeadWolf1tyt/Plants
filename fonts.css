@@ -9,6 +9,9 @@ body {
     line-height: 26px;
     color: #E06733;
 }
+.greenText {
+    color: #499A18;
+}
 .navigation__list {
     font-family: 'Inika', sans-serif;
     font-size: 16px;
