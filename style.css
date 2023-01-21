@@ -20,6 +20,9 @@ html {
     color: #fff;
     transition: 1s;
 }
+.layout_green {
+    background-color: #EDF2EC;
+}
 
 /*Header*/
 .header {
@@ -36,6 +39,7 @@ html {
 .navigation__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 452px;
     max-height: 50px;
     padding-top: 3px;
@@ -44,6 +48,9 @@ html {
 a {
     text-decoration: none;
     color: #010201;
+}
+.burger {
+    display: none;
 }
 
 /*Welcome*/
@@ -149,6 +156,9 @@ a {
     align-items: center;
     height: 450px;
     margin: 0px 58px;/*pixel*/
+}
+.serviceImage__tablet {
+    display: none;
 }
 .service__blockText {
     display: flex;
@@ -256,9 +266,12 @@ a {
     appearance: none;/*убераем стрелку*/
     /*background-color: transparent; делает фон прозрачным*/
     outline: none; /*Уберает рамку появляющуюся при клике */
+    cursor: pointer; /*при на ведении курсор изменяется*/
 
 }
-
+.contact__input {
+    pointer-events: none; /*делает элемент прозрачным для клика*/
+}
 
 /*Footer*/
 .footer {

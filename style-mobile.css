@@ -1,0 +1,228 @@
+@media screen and (max-width: 380px) {
+    /*Header*/
+    .header {
+        padding: 28px 23px 35px;
+    }
+    .logo {
+        width: 81px;
+        padding: 7px 0 0 1px;
+    }
+    .navigation__list {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    /*Welcome*/
+    .welcome {
+        max-width: 380px;
+        height: 301px;
+        padding: 27px 25px 0 25px;
+    }
+    .welcome__image {
+        display: none;
+    }
+    .welcome__title {
+        font-size: 25px;
+        line-height: 35px;
+        padding: 0;
+    }
+    .welcome__blockText {
+        max-width: 380px;
+        padding: 0;
+    }
+    .welcome__text {
+        line-height: 25px;
+        padding: 20px 0 0;
+    }
+    .welcome__button {
+        width: 100px;
+        height: 34.14px;
+        font-size: 10px;
+        line-height: 20px;
+        margin: 25px 0 0;
+    }
+
+    /*About*/
+    .about {
+        max-height: 516px;
+        min-height: 200px;
+    }
+    .about__blockText {
+        max-width: 380px;
+        max-height: 335px;
+        margin: 0;
+        padding: 30px 25px 0 25px;
+    }
+    .about__title {
+        max-width: 350px;
+        text-align: center;
+        margin: 0;
+        padding: 0 19.5px 0 0;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .about__text {
+        max-width: 380px;
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0;
+        padding: 0;
+    }
+    .about__image {
+        margin: 0;
+        padding: 0 0 27px;
+    }
+    .about__image>img {
+        width: 150px;
+        height: 154px;
+    }
+
+    /*Service*/
+    .service {
+        min-height: 3150px;
+    }
+    .service__content {
+        padding: 0 25px 0;
+    }
+    .service__title {
+        max-width: 187px;
+        text-align: left;
+        font-size: 25px;
+        line-height: 33px;
+        padding: 30.2px 0 0;
+    }
+    .service__list {
+        max-width: 252px;
+        height: 80px;
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin: 0;
+        padding: 28px 0 0;
+    }
+    .service__button {
+        padding: 9.5px 0 0;
+    }
+    .button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .service__layout {
+        padding: 42px 0 0;
+    }
+    .service__item {
+        margin: 34px 51px 0;
+    }
+    .service__name {
+        height: 20px;
+    }
+
+    /*Prices*/
+    .prices {
+        max-height: 512px;
+        min-height: 512px;
+        padding: 25px 0 40px 79px;
+    }
+    .prices__block1 {
+        max-height: 300px;
+    }
+    .prices__title1 {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0;
+    }
+    .prices__formBlock {
+        max-width: 224px;
+        height: 235px;
+        margin: 37px 0 0  0px;
+    }
+    .prices__form {
+        width: 180px;
+        height: 49.72px;
+        justify-content: space-between;
+        padding: 0px 40px 0 30px;
+    }
+    .prices__formBlock .prices__form:first-child {
+        margin-top: 28px;
+    }
+    .prices__formBlock .prices__form:last-child {
+        margin-bottom: 28px;
+    }
+    .prices__item {
+        height: 18px;
+        font-size: 15px;
+        line-height: 20px;
+        
+    }
+    .prices__checkbox {
+        height: 16px;
+        margin-right: 0px;
+    }
+    .prices__block2 {
+        justify-content: space-between;
+        padding: 0;
+    }
+    .prices__title2 {
+        width: 230px;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        margin-right: 0px;
+        padding: 0;
+    }
+    .prices__block2>.button {
+        width: 121px;
+        height: 35px;
+        margin: 0 59px 0 0;
+    }
+    .prices__img {
+        display: none;
+    }
+
+    /*Contact*/
+    .contact {
+        max-height: 445px;
+        min-height: 444px;
+    }
+    .contact__tittle {
+        font-size: 25px;
+        line-height: 33px;
+        margin: 25px 3.3px 0 0;
+    }
+    .selectBlock {
+        max-width: 380px;
+        left: 0px;
+        bottom: 255px;
+    }
+    .cityBlock {
+        width: 300px;
+        height: 50px;
+        margin: 240px 0 0;
+        padding: 0 0 0 18px;
+    }
+    .contact__input {
+        margin: 256px 0 0 262px;
+    }
+    .contact__image {
+        width: 100px;
+        height: 124px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    /*Footer*/
+    .footer {
+        min-height: 146px;
+        padding: 23px 0 6px 0;
+    }
+    .githubBlock {
+        margin-right: 3px;
+    }
+    .rsschool {
+        margin-top: 12px;
+        margin-right: 1.5px;
+    }
+}

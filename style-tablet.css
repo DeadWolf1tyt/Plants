@@ -1,0 +1,209 @@
+@media screen and (max-width: 768px) {
+    /*Header*/
+    .wrapper {
+        max-width: 768px;
+    }
+    .header {
+        max-width: 768px;
+        padding: 45px 50px 35px;
+    }
+    .logo {
+        width: 77px;
+        height: 21px;
+    }
+    .navigation {
+        max-width: 457px;
+        font-size: 16px;
+        padding: 6px 2px 0 0px;
+    }
+    .navigation__list {
+        flex-wrap: wrap;
+    }
+
+    /*Welcome*/
+    .welcome {
+        flex-direction: row-reverse;
+        padding: 40px 45px 70px 50px;
+    }
+    .welcome__blockText {
+        max-width: 346px;
+    }
+    .welcome__title {/*pixel*/
+        padding-top: 10px;
+        font-size: 35px;
+        line-height: 1.45;
+    }
+    .welcome__text {
+        font-size: 16px;
+        padding-top: 30px;
+        padding-left: 4px;
+        line-height: 1.6;
+    }
+    .welcome__image {
+        max-width: 280px;
+        max-height: 254px;
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+    .welcome__button {
+        height: 44px;
+        margin-top: 33px;
+    }
+
+    /*About*/
+    .about {
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 768px;
+        height: 783px;
+    }
+    .about__blockText {
+        width: 668px;
+        justify-content: space-between;
+        max-height: 360px;
+        margin: 40px 0 0;
+        padding: 0;
+    }
+    .about__title {
+        max-width: 423px;
+        max-height: 102px;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+        margin: 0px 0 0 122px;
+        padding: 0;
+    }
+    .about__text {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 50px;
+    }
+    .about__image {
+        margin-bottom: 95px;
+    }
+    .about__image>img {
+        width: 250px;
+        height: 258px;
+        padding: 0;
+    }
+
+    /*Service*/
+    .service {
+        min-height: 1780px;
+        /* max-height: 3150; */
+    }
+    .service__content {
+        flex-direction: column;
+        padding: 61px 0 0 49px;
+    }
+    .service__title {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .service__list {
+        max-width: 559px;
+        padding-top: 41px;
+        /* flex-wrap: wrap; */
+    }
+    .service__layout {
+        margin: 0;
+        padding: 0;
+    }
+    .service__item {
+        width: 281px;
+        height: 450px;
+        margin: 39px 51px 0;
+
+    }
+    .serviceImage__tablet {
+        display: block;
+    }
+    .service__image {
+        display: none;
+    }
+    .service__blockText {
+        max-width: 280px;
+        max-height: 100px;
+        padding: 0 30px;
+    }
+    .service__name {
+        height: 22px;
+        padding: 9px 0 0;
+    }
+    .service__text {
+        text-align: center;
+        line-height: 20px;
+        padding: 18px 0 0;
+    }
+
+    /*Prices*/
+    .prices {
+        flex-wrap: wrap;
+        min-height: 585px;
+        padding: 40px 0 0 50px;
+    }
+    .prices__title1 {
+        font-size: 35px;
+        line-height: 42px;
+        padding-top: 1px;
+        padding-left: 13.5px;
+    }
+    .prices__block2 {
+        max-width: 346px;
+        padding-top: 100.5px;
+    }
+    .prices__title2 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-right: 50.1px;
+    }
+    .prices__block2>.button {
+        margin-top: 28px;
+        margin-right: 50px;
+    }
+    .prices__img {
+        width: 162px;
+        height: 185px;
+        margin: 31px 43px 0 0;
+
+    }
+
+    /*Contact*/
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        min-height: 740px;
+        padding: 0;
+    }
+    .contact__image {
+        order: 3;
+        width: 200px;
+        height: 248px;
+        margin: 0px 0 0 20px;
+        padding-top: 3px;
+    }
+    .contact__tittle {
+        margin: 43px 2px 0 0;
+    }
+    .selectBlock {
+        left: 50px;
+        bottom: 210px;
+    }
+
+    /*Footer*/
+    .footer {
+        flex-direction: column;
+        min-height: 181px;
+        padding: 33px 0 19px 0;
+    }
+    .githubBlock {
+        margin: 0 5px 0 0;
+    }
+    .rsschool {
+        margin: 0 5.5px 0 0;
+    }
+    .socialMedia {
+        
+        margin: 0;
+    }
+}
