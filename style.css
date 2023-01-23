@@ -9,8 +9,10 @@ html {
     padding: 0;
 }
 .button {
+    position: relative;
     width: 161px;
     height: 50px;
+    z-index: 10;
     border: 1px solid #E06733;
     border-radius: 5px;
     background-color: rgba(28,28,28,0);
@@ -24,6 +26,7 @@ html {
     background-color: #EDF2EC;
 }
 
+/*-------------------------*/
 /*Header*/
 .header {
     max-height: 134px;
@@ -49,10 +52,11 @@ a {
     text-decoration: none;
     color: #010201;
 }
-.burger {
+.navigation__icon {
     display: none;
 }
 
+/*-------------------------*/
 /*Welcome*/
 .welcome {/*pixel*/
     display: flex;
@@ -85,6 +89,7 @@ a {
     transition: 1s;
 }
 
+/*-------------------------*/
 /*About*/
 .about {/*pixel*/
     display: flex;
@@ -115,6 +120,7 @@ a {
     padding-right: 28px;
 }
 
+/*-------------------------*/
 /*Service*/
 .service {
     display: flex;
@@ -177,6 +183,7 @@ a {
     padding-top: 13px;
 }
 
+/*-------------------------*/
 /*Prices*/
 .prices {
     max-width: 1440px;
@@ -228,6 +235,7 @@ a {
     margin-top: 33px;
 }
 
+/*-------------------------*/
 /*Contact*/
 .contact {
     display: flex;
@@ -241,8 +249,8 @@ a {
     margin-left: 105px;
 }
 .contact__tittle {
-    margin-top: 58px;
-    margin-left: 73px;
+    margin-top: 61px;
+    margin-left: 41px;
 }
 .selectBlock {
     position: relative;
@@ -273,6 +281,7 @@ a {
     pointer-events: none; /*делает элемент прозрачным для клика*/
 }
 
+/*-------------------------*/
 /*Footer*/
 .footer {
     display: flex;

@@ -3,21 +3,95 @@
     .header {
         padding: 28px 23px 35px;
     }
+    .header ul[class]{
+        padding: 20px;
+    }
     .logo {
         width: 81px;
         padding: 7px 0 0 1px;
     }
-    .navigation__list {
-        display: none;
+    .nav__wrapper {
+        position: absolute;
+        z-index: 10;
+        width: 200px;
+        height: 400px;
+        top: 0;
+        left: 100%;/*180px*/
+        padding: 20px;
+        transition: 0.5s;
+        overflow: auto;
     }
-    .burger {
+    .navigation__list {/*----*/
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 20px;/*.header ul[class]*/
+        border-radius: 2px;
+        background-color: #E06733;
+    }
+    .navigation__list a {
+        color: #fff;
+    }
+    .navigation__icon {
         display: block;
+        z-index: 11;
+        position: relative;
+        height: 24px;
+        width: 40px;
+        cursor: pointer;
     }
+    .navigation__icon span {
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 40px;
+        transition: 1s;
+        background-color: #717171;
+    }
+    .navigation__icon span:nth-child(2) {
+        margin-top: 8px;
+    }
+    .navigation__icon span:nth-child(3) {
+        margin-top: 16px;
+    }
+    .navigation__icon span:nth-child(4) {
+        margin-top: 24px;
+    }
+    .navigation__icon::before
+    .navigation__icon::after {
+        content: "";
+    }
+    .nav__wrapper._active {
+        left: 180px;
+    }
+    .span1._active {
+        width: 44px;
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+    .span2._active {
+        transform: scale(0) translate(0px, -50%);
+    }
+    .span3._active {
+        transform: scale(0) translate(0px, -50%);
+    }
+    .span4._active {
+        width: 44px;
+        bottom: 50%;
+        transform: rotate(45deg) translate(0px, -50%);
+    }
+    body._lock {
+        overflow: hidden;
+    }
+
+    /*-------------------------*/
     /*Welcome*/
     .welcome {
         max-width: 380px;
-        height: 301px;
-        padding: 27px 25px 0 25px;
+        height: 303px;
+        padding: 29px 25px 0 25px;
     }
     .welcome__image {
         display: none;
@@ -43,6 +117,7 @@
         margin: 25px 0 0;
     }
 
+    /*-------------------------*/
     /*About*/
     .about {
         max-height: 516px;
@@ -78,6 +153,7 @@
         height: 154px;
     }
 
+    /*-------------------------*/
     /*Service*/
     .service {
         min-height: 3150px;
@@ -110,7 +186,7 @@
         line-height: 20px;
     }
     .service__layout {
-        padding: 42px 0 0;
+        padding: 43px 0 0;
     }
     .service__item {
         margin: 34px 51px 0;
@@ -119,6 +195,7 @@
         height: 20px;
     }
 
+    /*-------------------------*/
     /*Prices*/
     .prices {
         max-height: 512px;
@@ -155,7 +232,6 @@
         height: 18px;
         font-size: 15px;
         line-height: 20px;
-        
     }
     .prices__checkbox {
         height: 16px;
@@ -182,6 +258,7 @@
         display: none;
     }
 
+    /*-------------------------*/
     /*Contact*/
     .contact {
         max-height: 445px;
@@ -213,6 +290,7 @@
         margin-right: 5px;
     }
 
+    /*-------------------------*/ 
     /*Footer*/
     .footer {
         min-height: 146px;

@@ -20,6 +20,7 @@
         flex-wrap: wrap;
     }
 
+    /*-------------------------*/
     /*Welcome*/
     .welcome {
         flex-direction: row-reverse;
@@ -50,6 +51,7 @@
         margin-top: 33px;
     }
 
+    /*-------------------------*/
     /*About*/
     .about {
         flex-direction: column;
@@ -87,6 +89,7 @@
         padding: 0;
     }
 
+    /*-------------------------*/
     /*Service*/
     .service {
         min-height: 1780px;
@@ -136,6 +139,7 @@
         padding: 18px 0 0;
     }
 
+    /*-------------------------*/
     /*Prices*/
     .prices {
         flex-wrap: wrap;
@@ -168,6 +172,7 @@
 
     }
 
+    /*-------------------------*/
     /*Contact*/
     .contact {
         flex-direction: column;
@@ -190,6 +195,7 @@
         bottom: 210px;
     }
 
+    /*-------------------------*/
     /*Footer*/
     .footer {
         flex-direction: column;
