@@ -1,4 +1,6 @@
 @media screen and (max-width: 380px) {
+    
+    
     /*Header*/
     .header {
         padding: 28px 23px 35px;
@@ -11,12 +13,13 @@
         padding: 7px 0 0 1px;
     }
     .nav__wrapper {
+        
         position: absolute;
         z-index: 10;
         width: 200px;
         height: 400px;
         top: 0;
-        left: 100%;/*180px*/
+        right: 380px;/*180px*/
         padding: 20px;
         transition: 0.5s;
         overflow: auto;
@@ -64,7 +67,8 @@
         content: "";
     }
     .nav__wrapper._active {
-        left: 180px;
+        
+        right: 0px;
     }
     .span1._active {
         width: 44px;
