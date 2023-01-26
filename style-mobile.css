@@ -13,26 +13,31 @@
         padding: 7px 0 0 1px;
     }
     .nav__wrapper {
-        
         position: absolute;
+        /* position: fixed; */
         z-index: 10;
-        width: 200px;
-        height: 400px;
-        top: 0;
-        right: 380px;/*180px*/
-        padding: 20px;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        right: 380px; /*180px*/
+        /* left: 100%; */
         transition: 0.5s;
         overflow: auto;
+        background-color: rgba(224, 103, 51, 0.9);
     }
     .navigation__list {/*----*/
         width: 100%;
         height: 100%;
         max-height: 100%;
         flex-direction: column;
+        align-items: center;
         flex-wrap: nowrap;
-        padding: 20px;/*.header ul[class]*/
+        padding: 70px 0;/*.header ul[class]*/
         border-radius: 2px;
-        background-color: #E06733;
+        
+    }
+    .header ul[class] {
+        padding: 70px 0;
     }
     .navigation__list a {
         color: #fff;
@@ -67,12 +72,12 @@
         content: "";
     }
     .nav__wrapper._active {
-        
-        right: 0px;
+        /* left: 0; */
+        right: 0;
     }
     .span1._active {
-        width: 44px;
-        top: 50%;
+        width: 35px;
+        top: 40%;
         transform: rotate(-45deg) translate(0px, -50%);
     }
     .span2._active {
@@ -82,7 +87,7 @@
         transform: scale(0) translate(0px, -50%);
     }
     .span4._active {
-        width: 44px;
+        width: 35px;
         bottom: 50%;
         transform: rotate(45deg) translate(0px, -50%);
     }
@@ -198,6 +203,9 @@
     .service__name {
         height: 20px;
     }
+    /* .service img {
+        filter: blur(5px);
+    } */
 
     /*-------------------------*/
     /*Prices*/
