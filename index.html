@@ -18,7 +18,7 @@
 </head>
 <body >
     <div class="wrapper">
-        
+
         <header class="header">
             <div class="logo">
                 <img src="images/logo.svg" alt="logo" class="logo__image">
@@ -53,7 +53,9 @@
                 
             </nav>
         </header>
+
         <main class="main">
+
             <section class="welcome">
                 <div class="welcome__image">
                     <img src="images/leafs.png" alt="leafs" class="welcome__img">
@@ -67,6 +69,7 @@
                     <button class="welcome__button">LEARN MORE</button>
                 </div>
             </section>
+
             <section class="about" id="about">
                 <div class="about__blockText">
                     <h2 class="about__title">
@@ -83,23 +86,24 @@
                     <img src="images/houseplant1.png" alt="image houseplant" class="about__img">
                 </div>
             </section>
+
             <section class="service" id="service">
                 <div class="service__content">
                     <h2 class="service__title">Service and our projects</h2>
                     <div class="service__list">
                         <div class="service__button">
-                            <button class="button">Gardens</button>
+                            <button onclick="blurAddGardens()" class="button" >Gardens</button>
                         </div>
                         <div class="service__button">
-                            <button class="button">Lawn</button>
+                            <button class="button" onclick="blurAddLawn()">Lawn</button>
                         </div>
                         <div class="service__button">
-                            <button class="button">Planting</button>
+                            <button class="button" onclick="blurAddPlanting()">Planting</button>
                         </div>
                     </div>
                 </div>
                 <div class="service__layout">
-                    <div class="service__item">
+                    <div class="service__item _gardens">
                         <img src="images/first.png" alt="Image service" class="service__image">
                         <img src="images/first_tablet.png" alt="Image service" class="serviceImage__tablet">
                         <div class="service__blockText">
@@ -107,7 +111,7 @@
                             <p class="service__text">Lorem Ipsum has been the industry</p>
                         </div>
                     </div>
-                    <div class="service__item">
+                    <div class="service__item _planting">
                         <img src="images/first(1).png" alt="Image service" class="service__image">
                         <img src="images/first_tablet(1).png" alt="Image service" class="serviceImage__tablet">
                         <div class="service__blockText">
@@ -115,7 +119,7 @@
                             <p class="service__text">Lorem Ipsum has been the industry</p>
                         </div>
                     </div>
-                    <div class="service__item">
+                    <div class="service__item _lawn">
                         <img src="images/first(2).png" alt="Image service" class="service__image">
                         <img src="images/first_tablet(2).png" alt="Image service" class="serviceImage__tablet">
                         <div class="service__blockText">
@@ -123,7 +127,7 @@
                             <p class="service__text">Lorem Ipsum has been the industry</p>
                         </div>
                     </div>
-                    <div class="service__item">
+                    <div class="service__item _planting">
                         <img src="images/first(3).png" alt="Image service" class="service__image">
                         <img src="images/first_tablet(3).png" alt="Image service" class="serviceImage__tablet">
                         <div class="service__blockText">
@@ -131,7 +135,7 @@
                             <p class="service__text">Lorem Ipsum has been the industry</p>
                         </div>
                     </div>
-                    <div class="service__item">
+                    <div class="service__item _gardens">
                         <img src="images/first(4).png" alt="Image service" class="service__image">
                         <img src="images/first_tablet(4).png" alt="Image service" class="serviceImage__tablet">
                         <div class="service__blockText">
@@ -139,7 +143,7 @@
                             <p class="service__text">Lorem Ipsum has been the industry</p>
                         </div>
                     </div>
-                    <div class="service__item">
+                    <div class="service__item _planting">
                         <img src="images/first(5).png" alt="Image service" class="service__image">
                         <img src="images/first_tablet(5).png" alt="Image service" class="serviceImage__tablet">
                         <div class="service__blockText">
@@ -149,6 +153,7 @@
                     </div>
                 </div>
             </section>
+
             <section class="prices" id="price">
                 <div class="prices__block1">
                     <h2 class="prices__title1">Prices</h2>
@@ -173,6 +178,7 @@
                     <div class="prices__img"><img src="images/leafs(1).png" alt="Picture prices"></div>
                 </div>
             </section>
+
             <section class="contact" id="contacts">
                 <div class="contact__image"><img src="images/contact_woman1.png" alt="contact woman" class="contact__img"></div>
                 <h2 class="contact__tittle">Contact us</h2>
@@ -188,7 +194,9 @@
                 </div>
                 
             </section>
+
         </main>
+
         <footer class="footer">
             <div class="githubBlock">
                 <div>&#169;</div>
@@ -205,5 +213,6 @@
         </footer>
     </div>
     <script src="hamburger.js"></script>
+    <script src="blur.js"></script>
 </body>
 </html>

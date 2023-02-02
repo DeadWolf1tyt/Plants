@@ -17,7 +17,7 @@ html {
     border-radius: 5px;
     background-color: rgba(28,28,28,0);
 }
-.button:hover {
+.button._active {
     background: #E06733;
     color: #fff;
     transition: 1s;
@@ -162,6 +162,10 @@ a {
     align-items: center;
     height: 450px;
     margin: 0px 58px;/*pixel*/
+    transition: 1s;
+}
+.service__item._blurAdd {
+    filter: blur(3px);
 }
 .serviceImage__tablet {
     display: none;
