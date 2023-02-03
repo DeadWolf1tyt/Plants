@@ -158,23 +158,59 @@
                 <div class="prices__block1">
                     <h2 class="prices__title1">Prices</h2>
                     <div class="prices__formBlock">
-                        <div class="prices__form">
-                            <div class="prices__item">Basics</div>
-                            <div class="prices__checkbox"><img src="images/pricesButtonUnactive.png" alt="buttom"></div>
+                        <div class="prices__accordion">
+                            <div class="prices__button">
+                                <div class="prices__item">Basics</div>
+                                <div class="prices__checkbox">
+                                    <img onclick="buttonPrices1()" class="prices__button__unactive" src="images/pricesButtonUnactive.png" alt="buttom">
+                                    <img onclick="buttonPrices1()" class="prices__button__active" src="images/pricesButomActive.png" alt="button">
+                                </div>
+                            </div>
+                            <div class="prices__text">
+                                <p class="prices__paragraph">
+                                    Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                </p>
+                                <p class="prices__cost"><span>$15</span> / per hour</p>
+                                <div class="prices__order"><a href="#contacts">Order</a></div>
+                            </div>
                         </div>
-                        <div class="prices__form">
-                            <div class="prices__item">Standard</div>
-                            <div class="prices__checkbox"><img src="images/pricesButtonUnactive.png" alt="buttom"></div>
+                        <div class="prices__accordion">
+                            <div class="prices__button">
+                                <div class="prices__item">Standard</div>
+                                <div class="prices__checkbox">
+                                    <img onclick="buttonPrices2()" class="prices__button__unactive" src="images/pricesButtonUnactive.png" alt="buttom">
+                                    <img onclick="buttonPrices2()" class="prices__button__active" src="images/pricesButomActive.png" alt="button">
+                                </div>
+                            </div>
+                            <div class="prices__text">
+                                <p class="prices__paragraph">
+                                    Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                </p>
+                                <p class="prices__cost"><span>$25</span> / per hour</p>
+                                <div class="prices__order"><a href="#contacts">order</a></div>
+                            </div>
                         </div>
-                        <div class="prices__form">
-                            <div class="prices__item">Pro care</div>
-                            <div class="prices__checkbox"><img src="images/pricesButtonUnactive.png" alt="buttom"></div>
+                        <div class="prices__accordion">
+                            <div class="prices__button">
+                                <div class="prices__item">Pro care</div>
+                                <div class="prices__checkbox">
+                                    <img onclick="buttonPrices3()" class="prices__button__unactive" src="images/pricesButtonUnactive.png" alt="buttom">
+                                    <img onclick="buttonPrices3()" class="prices__button__active" src="images/pricesButomActive.png" alt="button">
+                                </div>
+                            </div>
+                            <div class="prices__text">
+                                <p class="prices__paragraph">
+                                    Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                </p>
+                                <p class="prices__cost"><span>$35</span> / per hour</p>
+                                <div class="prices__order"><a href="#contacts">order</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="prices__block2">
                     <h3 class="prices__title2">Our best <span class="greenText">gardeners</span> are ready to help you</h3>
-                    <button class="button">Contact us</button>
+                    <button class="button" >Contact us</button>
                     <div class="prices__img"><img src="images/leafs(1).png" alt="Picture prices"></div>
                 </div>
             </section>
@@ -214,5 +250,6 @@
     </div>
     <script src="hamburger.js"></script>
     <script src="blur.js"></script>
+    <script src="accordion.js"></script>
 </body>
 </html>
