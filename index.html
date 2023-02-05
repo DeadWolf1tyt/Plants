@@ -218,15 +218,81 @@
             <section class="contact" id="contacts">
                 <div class="contact__image"><img src="images/contact_woman1.png" alt="contact woman" class="contact__img"></div>
                 <h2 class="contact__tittle">Contact us</h2>
-                <div class="selectBlock">
+                <div class="selectBlockCity">
                     <div class="contact__input"><img src="images/pricesButtonUnactive.png" alt="buttom"></div>
-                    <select class="cityBlock" name="selectCity" id="select">
-                        <option class="cityBlock__city" value="" disabled selected>City</option>
-                        <option class="cityBlock__city" value="">Canandaigua, NY</option>
-                        <option class="cityBlock__city" value="">New York City</option>
-                        <option class="cityBlock__city" value="">Yonkers, NY</option>
-                        <option class="cityBlock__city" value="">Sherrill, NY</option>
-                    </select>
+                    <div class="cityBlock" name="selectCity" id="select">
+                        <div class="cityBlock__city" value="" disabled selected>City</div>
+                    </div>
+                    <div class="selectBlockCity__list">
+                        <div class="selectBlockCity__item">Canandaigua, NY</div>
+                        <div class="selectBlockCity__item">New York City</div>
+                        <div class="selectBlockCity__item">Yonkers, NY</div>
+                        <div class="selectBlockCity__item">Sherrill, NY</div>
+                    </div>
+                    <div class="cityPopup _canandaigua">
+                        <table class="city__table">
+                            <tr>
+                                <td class="tittle">City:</td><td class="text">Canandaigua, NY</td>
+                            </tr>
+                            <tr>
+                                <td class="tittle">Phone:</td><td class="text">+1 585 393 0001</td>
+                            </tr>
+                            <tr>
+                                <td class="tittle">Office adress:</td><td class="text">151 Chariotte Street</td>
+                            </tr>
+                        </table>
+                        <div class="city__button_item">
+                            <a href="tel:+1 585 393 0001">Call us</a>
+                        </div>
+                    </div>
+                    <div class="cityPopup _newYorkCity">
+                        <table class="city__table">
+                            <tr>
+                                <td class="tittle">City:</td><td class="text">New York City</td>
+                            </tr>
+                            <tr>
+                                <td class="tittle">Phone:</td><td class="text">+1 212 456 0002</td>
+                            </tr>
+                            <tr>
+                                <td class="tittle">Office adress:</td><td class="text">9 East 91st Street</td>
+                            </tr>
+                        </table>
+                        <div class="city__button_item">
+                            <a href="tel:+1 212 456 0002">Call us</a>
+                        </div>
+                    </div>
+                    <div class="cityPopup _yonkers">
+                        <table class="city__table">
+                            <tr>
+                                <td class="tittle">City:</td><td class="text">Yonkers, NY</td>
+                            </tr>
+                            <tr>
+                                <td class="tittle">Phone:</td><td class="text">+1 914 678 0003</td>
+                            </tr>
+                            <tr>
+                                <td class="tittle">Office adress:</td><td class="text">511 Warburton Ave</td>
+                            </tr>
+                        </table>
+                        <div class="city__button_item">
+                            <a href="tel:+1 914 678 0003">Call us</a>
+                        </div>
+                    </div>
+                    <div class="cityPopup _sherrill">
+                        <table class="city__table">
+                            <tr>
+                                <td class="tittle">City:</td><td class="text">Sherrill, NY</td>
+                            </tr>
+                            <tr>
+                                <td class="tittle">Phone:</td><td class="text">+1 315 908 0004</td>
+                            </tr>
+                            <tr>
+                                <td class="tittle">Office adress:</td><td class="text">14 WEST Noyes BLVD</td>
+                            </tr>
+                        </table>
+                        <div class="city__button_item">
+                            <a href="tel:+1 315 908 0004">Call us</a>
+                        </div>
+                    </div>
                 </div>
                 
             </section>
@@ -251,5 +317,6 @@
     <script src="hamburger.js"></script>
     <script src="blur.js"></script>
     <script src="accordion.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
