@@ -210,12 +210,11 @@
     /*-------------------------*/
     /*Prices*/
     .prices {
-        max-height: 512px;
         min-height: 512px;
         padding: 25px 0 40px 79px;
     }
     .prices__block1 {
-        max-height: 300px;
+        min-height: 300px;
         z-index: 3;
     }
     .prices__title1 {
