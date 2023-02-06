@@ -2,6 +2,10 @@ const cityBlock = document.querySelector('.cityBlock');
 const selectBlockCityList = document.querySelector('.selectBlockCity__list');
 const selectBlockCityItem = document.querySelectorAll('.selectBlockCity__item');
 const cityPopup = document.querySelectorAll('.cityPopup');
+const contactButtonActive = document.querySelector('.contact__button__active');
+const contactButtonUnactive = document.querySelector('.contact__button__unactive');
+const cityBlockCity = document.querySelector('.cityBlock__city');
+
 
 function openCloseListCity() {
     selectBlockCityList.classList.toggle('_active');
@@ -9,23 +13,30 @@ function openCloseListCity() {
     cityPopup[1].classList.remove('_active');
     cityPopup[2].classList.remove('_active');
     cityPopup[3].classList.remove('_active');
+    contactButtonActive.classList.toggle('_active');
+    contactButtonUnactive.classList.toggle('_active');
+    cityBlockCity.textContent = 'City';
 }
 
 function selectCity0() {
     selectBlockCityList.classList.toggle('_active');
     cityPopup[0].classList.add('_active');
+    cityBlockCity.textContent = 'Canandaigua, NY';
 }
 function selectCity1() {
     selectBlockCityList.classList.toggle('_active');
     cityPopup[1].classList.add('_active');
+    cityBlockCity.textContent = 'New York City';
 }
 function selectCity2() {
     selectBlockCityList.classList.toggle('_active');
     cityPopup[2].classList.add('_active');
+    cityBlockCity.textContent = 'Yonkers, NY';
 }
 function selectCity3() {
     selectBlockCityList.classList.toggle('_active');
     cityPopup[3].classList.add('_active');
+    cityBlockCity.textContent = 'Sherrill, NY';
 }
 
 selectBlockCityItem[0].addEventListener('click', selectCity0);

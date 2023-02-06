@@ -361,6 +361,15 @@ a {
 .contact__input {
     pointer-events: none; /*делает элемент прозрачным для клика*/
 }
+.contact__button__active {
+    display: none;
+}
+.contact__button__active._active {
+    display: block;
+}
+.contact__button__unactive._active {
+    display: none;
+}
 .selectBlockCity__list {
     display: none;
     max-width: 450px;
@@ -400,6 +409,7 @@ a {
     border: 1px solid #000000;
     border-radius: 20px;
     padding: 17px 0 0 35px;
+    background-color: #EDF2EC;
 }
 .cityPopup._active {
     display: block;

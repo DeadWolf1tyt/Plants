@@ -313,6 +313,27 @@
         margin-left: 0px;
         margin-right: 5px;
     }
+    .cityPopup {
+        max-width: 300px;
+        width: 100%;
+        max-height: 250px;
+        min-height: 230px;
+        height: 100%;
+        margin-top: 20px;
+        padding: 10px 0 0 20px;
+    }
+    tr {
+        height: 38px;
+    }
+    td.tittle {
+        line-height: 35px;
+    }
+    td.text {
+        line-height: 35px;
+    }
+    .city__button_item {
+        margin: 10px 0 0 70px;
+    }
 
     /*-------------------------*/ 
     /*Footer*/
